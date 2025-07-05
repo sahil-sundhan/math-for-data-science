@@ -1,0 +1,84 @@
+Variable: no_of_weekend_nights
+Null-Hypothesis: no_of_weekend_nights and booking_status are independent / no_of_weekend_nights has no role in determining whether guest is likely to cancel the booking.
+no_of_weekend_nights contingency table:
+booking_status        Canceled  Not_Canceled
+no_of_weekend_nights                        
+0                         5093         11779
+1                         3432          6563
+2                         3157          5914
+3                           74            79
+4                           83            46
+5                           29             5
+
+Chi-Square Statistic: 197.2088378397259, Degree of freedom: 5
+
+Expected Frequency:
+[[5.52316699e+03 1.13488330e+04]
+ [3.27193303e+03 6.72306697e+03]
+ [2.96945518e+03 6.10154482e+03]
+ [5.00856181e+01 1.02914382e+02]
+ [4.22290506e+01 8.67709494e+01]
+ [1.11301374e+01 2.28698626e+01]]
+p-value: 1.123163658201841e-40|0.0000000000, H0 - rejected
+
+
+Variable: no_of_children
+Null-Hypothesis: no_of_children and booking_status are independent / no_of_children has no role in determining whether guest is likely to cancel the booking.
+no_of_children contingency table:
+booking_status  Canceled  Not_Canceled
+no_of_children                        
+0                  10882         22695
+1                    540          1078
+2                    457           601
+
+Chi-Square Statistic: 54.44441811236988, Degree of freedom: 2
+
+Expected Frequency:
+[[11002.15659394 22574.84340606]
+ [  530.16914462  1087.83085538]
+ [  346.67426144   711.32573856]]
+p-value: 1.505028838398159e-12|0.0000000000, H0 - rejected
+
+
+Variable: type_of_meal_plan
+Null-Hypothesis: type_of_meal_plan and booking_status are independent / type_of_meal_plan has no role in determining whether guest is likely to cancel the booking.
+type_of_meal_plan contingency table:
+booking_status     Canceled  Not_Canceled
+type_of_meal_plan                        
+Meal Plan 1            8679         19156
+Meal Plan 2            1506          1799
+Not Selected           1699          3431
+
+Chi-Square Statistic: 277.91744541098717, Degree of freedom: 2
+
+Expected Frequency:
+[[ 9120.2409705  18714.7590295 ]
+ [ 1082.89550593  2222.10449407]
+ [ 1680.86352357  3449.13647643]]
+p-value: 4.4770662058478976e-61|0.0000000000, H0 - rejected
+
+
+Variable: room_type_reserved
+Null-Hypothesis: room_type_reserved and booking_status are independent / room_type_reserved has no role in determining whether guest is likely to cancel the booking.
+room_type_reserved contingency table:
+booking_status      Canceled  Not_Canceled
+room_type_reserved                        
+Room_Type 1             9072         19058
+Room_Type 2              228           464
+Room_Type 4             2069          3988
+Room_Type 5               72           193
+Room_Type 6              406           560
+Room_Type 7               36           122
+
+Chi-Square Statistic: 57.278371046231975, Degree of freedom: 5
+
+Expected Frequency:
+[[ 9216.63146575 18913.36853425]
+ [  226.72978935   465.27021065]
+ [ 1984.54094519  4072.45905481]
+ [   86.82571413   178.17428587]
+ [  316.50430131   649.49569869]
+ [   51.76778427   106.23221573]]
+p-value: 4.431046769351626e-11|0.0000000000, H0 - rejected
+
+
